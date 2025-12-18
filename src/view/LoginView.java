@@ -106,7 +106,7 @@ public class LoginView extends JFrame {
             this.dispose();
             new DashboardView(user).setVisible(true);
         } else {
-            MessageHelper.showErrorMessage("Invalid username or password!");
+            MessageHelper.showErrorMessage("Invalid username or password!.");
             txtPassword.setText("");
         }
     }

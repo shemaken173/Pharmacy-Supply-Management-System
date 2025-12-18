@@ -11,7 +11,7 @@ import java.sql.*;
  */
 
  public class DBConnection {
-    private static final String URL = "jdbc:postgresql://localhost:5432/PharmacySupplyManagementSystem";
+    private static final String URL = "jdbc:postgresql://host.docker.internal:5432/PharmacySupplyManagementSystem";
     private static final String USER = "postgres";
     private static final String PASS = "postgres";
 
