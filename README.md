@@ -12,6 +12,7 @@ The DFD illustrates the movement of data between processes and data stores.
 * **Order & Inventory Control (P3, P4, P6)**: Handles the creation of orders and tracking of inventory transactions.
 * **Reporting (P8)**: Generates alerts and reports for administrators.
 
+<img width="1536" height="1024" alt="ChatGPT Image Dec 18, 2025, 03_56_08 PM" src="https://github.com/user-attachments/assets/a20617b4-62da-4252-8e7e-66768f688b76" />
 
 
 ### Activity Diagram - Order Processing
@@ -19,6 +20,7 @@ This diagram details the step-by-step logic for fulfilling a medicine order.
 * **Validation**: The system validates order details (budget and quantity) before processing.
 * **Stock Update**: Upon completion, the system automatically records the transaction and updates medicine stock quantities.
 
+<img width="1024" height="1536" alt="ChatGPT Image Dec 18, 2025, 04_02_18 PM" src="https://github.com/user-attachments/assets/8e0fd88a-8e0f-45f2-b72f-72b3ad77ce02" />
 
 
 ### Sequence Diagram - Purchase Workflow
@@ -26,6 +28,7 @@ The sequence diagram shows object interactions for stock verification and order 
 * **Stock Check**: The Order object queries the Inventory to verify medicine availability.
 * **Conditional Logic**: If stock is available, it confirms with the Supplier; if not, it notifies the user of unavailability.
 
+<img width="1366" height="887" alt="Untitled Diagram drawio" src="https://github.com/user-attachments/assets/f366538a-50ed-4931-a1a0-a4fc03e7ca02" />
 
 
 ## 3. Technical Requirements & Implementation
